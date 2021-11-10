@@ -15,7 +15,7 @@ public class ExibirMensagem {
 		System.out.println("Digite um valor:");
 		int v1 = sc.nextInt();
 		System.out.println(v1);
-		sc.close();
+		sc.close(); 
 	}
 
 }
