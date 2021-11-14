@@ -7,7 +7,7 @@ public class AreaCirculo {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Insira o raio: ");
 		int r = sc.nextInt();
-		int a = Math.PI*(r *r) ;
+		int a = (int) Math.PI*(r *r) ;
 		System.out.printf("A area é: " + a);
 		sc.close();
 	}

@@ -12,5 +12,5 @@ public class Adicão {
 		int v3 = v1 + v2;
 		System.out.println("O resultado é " + v3);
 		sc.close();
-}
+	}
 }
