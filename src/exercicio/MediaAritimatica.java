@@ -10,10 +10,11 @@ public class MediaAritimatica {
 		System.out.print("Insira a nota2: ");
 		float b = input.nextFloat();
 		float c = (a + b) / 2;
-		if (c<6) {
-			System.out.print("Aluno reprovado, media: "+c);
+		if (c < 6) {
+			System.out.print("Aluno reprovado, media: " + c);
+		} else {
+			System.out.print("Aluno aprovado, media: " + c);
 		}
-		else {System.out.print("Aluno aprovado, media: "+c);}
 		input.close();
 	}
 
