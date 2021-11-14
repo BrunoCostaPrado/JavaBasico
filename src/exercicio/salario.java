@@ -3,7 +3,7 @@ package exercicio;
 
 import java.util.Scanner;
 
-public class salario {
+public class Salario {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
