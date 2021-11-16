@@ -13,16 +13,17 @@ public class SomarMaiores {
 		int nnn = input.nextInt();
 		if (n > nn && nn > nnn) {
 			int r = n + nn;
-			System.out.print("A soma dos maiores é" + r);
+			System.out.print("A soma dos maiores é " + r);
 		} else if (nn > n && nnn > n) {
 			int r = nn + nnn;
-			System.out.print("A soma dos maiores é" + r);
+			System.out.print("A soma dos maiores é " + r);
+		} else if (nnn > nn && n > nn) {
+			int r = nnn + n;
+			System.out.print("A soma dos maiores é " + r);
+		} else if (n == nn && n == nnn && nn == nnn) {
+			System.out.print("Numeros iguais");
 		}
-		else if(nnn>nn&&n>nn){
-			int r=nnn+nn
-			System.out.print("A soma dos maiores é" + r);
-			}
-		
+
 		input.close();
 	}
 
