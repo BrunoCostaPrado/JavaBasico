@@ -19,7 +19,7 @@ public class TimeVencedor {
 			System.out.print("O vencedor é :" + t2);
 		} else if (g1 == g2) {
 			System.out.print("Empate");
-		}
+		}input.close();
 	}
 
 }

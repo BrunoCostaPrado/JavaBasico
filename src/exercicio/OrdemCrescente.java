@@ -24,6 +24,6 @@ public class OrdemCrescente {
 
 		else if (nnn > nn && nnn > n & nn > n) {
 			System.out.print("Ordem Crescente: " + n + ", " + nn + ", " + nnn);
-		}
+		}input.close();
 	}
 }

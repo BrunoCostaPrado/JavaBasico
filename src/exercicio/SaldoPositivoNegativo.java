@@ -15,9 +15,9 @@ public class SaldoPositivoNegativo {
 		int cc = input.nextInt();
 		int sa = s - d + cc;
 		if (sa >= 0) {
-			System.out.print("Seu saldo é positivo: R$" + sa);
+			System.out.print("Seu saldo é positivo: R$" + sa + " conta nº:2: " + c);
 		} else {
-			System.out.print("Seu saldo é negativo: R$" + sa);
+			System.out.print("Seu saldo é negativo: R$" + sa + " conta nº:2" + c);
 		}
 		input.close();
 	}

@@ -17,6 +17,6 @@ public class LerValor {
 		} else {
 			System.out.print("O segundo valor é maior: ");
 		}
-
+		input.close();
 	}
 }

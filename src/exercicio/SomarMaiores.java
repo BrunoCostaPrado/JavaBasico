@@ -20,7 +20,7 @@ public class SomarMaiores {
 		} else if (nnn > nn && n > nn) {
 			int r = nnn + n;
 			System.out.print("A soma dos maiores é " + r);
-		} else if (n == nn && n == nnn && nn == nnn && nnn == n && nnn == nnn) {
+		} else if (n == nn && n == nnn && nn == nnn && nnn == n) {
 			System.out.print("Numeros iguais");
 		}
 

@@ -19,7 +19,8 @@ public class VerificarTriangulo {
 		} else if (r1 < l1 && r1 < l2 && r1 < l3 && r2 < l1 && r2 < l2 && r2 < l3 && r3 < l1 && r3 < l2 && r3 < l3) {
 			System.out.print("Forma um triangulo");
 		}
-		System.out.print(r1+r2+r3);
+		System.out.print(r1 + r2 + r3);
+		input.close();
 	}
 
 }

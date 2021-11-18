@@ -19,6 +19,7 @@ public class TesteMesa {
 		} else {
 			System.out.print("C");
 		}
+		input.close();
 	}
 
 }
