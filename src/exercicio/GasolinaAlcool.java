@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class GasolinaAlcool {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		float a, g, r;
+		float r;
 		System.out.print("1 para Gasolina, 2 para alcool: ");
 		int s = input.nextInt();
 		System.out.print("Quantos litros?: ");

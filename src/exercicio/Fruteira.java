@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Fruteira {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		float m, mm, r, rr,t;
+		float m, mm, r, rr;
 		System.out.print("Insira a quantidade maças: ");
 		m = input.nextFloat();
 		System.out.print("Insira a quantidade maças: ");
@@ -20,7 +20,7 @@ public class Fruteira {
 			rr = (mm * 1.5f);
 			System.out.print("Maças custam R$:" + r);
 			System.out.print("Morangos custam R$:" + rr);
-		}
+		}input.close();
 	}
 
 }

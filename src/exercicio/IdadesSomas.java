@@ -28,5 +28,6 @@ public class IdadesSomas {
 			r = aa + b;
 			System.out.print("A soma da idade do Homem mais novo e da mulher mais velha é " + r);
 		}
+		input.close();
 	}
 }
