@@ -16,9 +16,9 @@ public class Eleicão {
 		int vvb = (vb * 100 / et);
 		int vvn = (vn * 100 / et);
 		int vvv = (vv * 100 / et);
-		System.out.println("A porcentagem de votos em branco é: "+vvb);
-		System.out.println("A porcentagem de votos nulos é: "+vvn);
-		System.out.print("A porcentagem votos validos é: "+vvv);
+		System.out.println("A porcentagem de votos em branco é: " + vvb + "%");
+		System.out.println("A porcentagem de votos nulos é: " + vvn + "%");
+		System.out.print("A porcentagem votos validos é: " + vvv + "%");
 		sc.close();
 
 	}

@@ -13,13 +13,13 @@ public class GasolinaAlcool {
 		if (s == 1 && l > 20) {
 			r = (l * 3.3f) - ((l * 3.3f) / 100 * 4);
 			System.out.print("R$:" + r);
-		} else if (s == 1 && l < 20) {
+		} else if (s == 1 && l <= 20) {
 			r = (l * 3.3f) - ((l * 3.3f) / 100 * 6);
 			System.out.print("R$:" + r);
 		} else if (s == 2 && l > 20) {
 			r = (l * 2.9f) - ((l * 2.9f) / 100 * 3);
 			System.out.print("R$:" + r);
-		} else if (s == 2 && l < 20) {
+		} else if (s == 2 && l <= 20) {
 			r = (l * 2.9f) - ((l * 2.9f) / 100 * 5);
 			System.out.print("R$:" + r);
 		}

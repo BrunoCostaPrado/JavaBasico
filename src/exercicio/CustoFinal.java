@@ -7,7 +7,8 @@ public class CustoFinal {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Insira o custo de fabrica: ");
 		int c = input.nextInt();
-		int cf = c + (28 / 100 * c) + (45 / 100 * c);
+		int p = 100 * c;
+		int cf = (c + (28 / p) + (45 / p));
 		System.out.print("O custo final é: " + cf);
 		input.close();
 	}
