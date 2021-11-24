@@ -11,11 +11,11 @@ public class SalarioComissao {
 		float v = input.nextFloat();
 
 		if (v < 1500) {
-			float vv = v / 100 * 3;
+			float vv = v * 3 / 100;
 			float sf = vv + s;
 			System.out.print("Salario final é: R$" + sf);
 		} else {
-			float vv = v / 100 * 5;
+			float vv = v * 5 / 100;
 			float sf = vv + s;
 			System.out.print("Salario final é: R$" + sf);
 		}

@@ -12,11 +12,11 @@ public class Peso {
 		float c = ((72.7f * a) - 58);
 		float cc = ((62.1f * a) - 44.7f);
 		if (s == 1) {
-			System.out.print("Peso ideal é: "+c);
+			System.out.print("Peso ideal é: " + c);
 		} else if (s > 2) {
 			System.out.print("Algo esta errado");
 		} else {
-			System.out.print("Peso ideal é: "+cc);
+			System.out.print("Peso ideal é: " + cc);
 		}
 		input.close();
 	}
