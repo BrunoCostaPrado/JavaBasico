@@ -16,6 +16,7 @@ public class Aposentadoria {
 		c = input.nextInt();
 		e = d - b;
 		f = d - c;
+		System.out.println("Codigo Nº"+a);
 		if (e < 65) {
 			System.out.println("Não requer" + " " + e + " " + f);
 		} else if (e >= 65) {
