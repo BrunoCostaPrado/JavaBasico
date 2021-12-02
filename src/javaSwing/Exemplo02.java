@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 public class Exemplo02 implements ActionListener {
 
-	JTextField tf1, tf2, tf3;
+	JTextField tf1, tf2, tf3, tf4, tf5;
 	JButton b1, b2, b3, b4;
 
 	Exemplo02() {
@@ -22,9 +22,9 @@ public class Exemplo02 implements ActionListener {
 		b2 = new JButton("-");
 		b2.setBounds(120, 200, 50, 50);
 		b3 = new JButton("*");
-		b3.setBounds(120, 200, 50, 50);
+		b3.setBounds(190, 200, 50, 50);
 		b4 = new JButton("/");
-		b4.setBounds(120, 200, 50, 50);
+		b4.setBounds(260, 200, 50, 50);
 		b1.addActionListener(this);
 		b2.addActionListener(this);
 		b3.addActionListener(this);
@@ -36,7 +36,7 @@ public class Exemplo02 implements ActionListener {
 		f.add(b2);
 		f.add(b3);
 		f.add(b4);
-		f.setSize(300, 300);
+		f.setSize(400, 400);
 		f.setLayout(null);
 		f.setVisible(true);
 	}
